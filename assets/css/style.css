@@ -6,7 +6,9 @@ body {
     text-align: center;
 }
 
-h1,
+h1 {
+    color:darkgoldenrod
+}
 h2 {
     color: darkred;
 }
@@ -65,6 +67,7 @@ nav a:hover {
 
 .service {
     display: inline-block;
+    text-align: center;
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
@@ -83,4 +86,10 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+.resturantimg {
+    width: 100%;
+    height: auto;
+
 }
